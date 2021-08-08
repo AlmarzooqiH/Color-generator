@@ -12,7 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var colorImage2: UIImageView!
     @IBOutlet weak var colorImage3: UIImageView!
     @IBOutlet weak var colorImage4: UIImageView!
-
+ 
+    var colorArray = [UIColor]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
